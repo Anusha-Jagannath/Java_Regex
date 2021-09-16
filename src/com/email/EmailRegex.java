@@ -6,8 +6,8 @@ public class EmailRegex {
 
 	public static void main(String[] args) {
 
-		String emailPattern = "@bridgelabz.com"; // Pattern for usecase3
-		String matcher = "@[a-zA-Z]+\\.[a-z]{2,4}"; // Regex for usecase3
+		String emailPattern = "abc.xyz@bridgelabz.co.in"; // Pattern for usecase4
+		String matcher = "^[a-zA-Z0-9+_.]+@[a-zA-Z]+\\.[a-z.-]+$"; // Regex for usecase4
 		System.out.println(Pattern.matches(matcher, emailPattern));
 	}
 }
